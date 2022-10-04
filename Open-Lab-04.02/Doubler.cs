@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Open_Lab_04._02
 {
@@ -6,7 +6,15 @@ namespace Open_Lab_04._02
     {
         public string DoubleChar(string original)
         {
-            throw new NotImplementedException();
+            string doubletrouble = String.Empty;
+            for (int i = 0; i < original.Length; i++)
+            {
+                doubletrouble += original[i];
+                doubletrouble += original[i];
+            }
+
+            return doubletrouble;
+
         }
     }
 }
